@@ -15,7 +15,7 @@ def load():
 def enterUser():
     print('entering user')
     email = browser.find_element_by_id('Email')
-    email.send_keys('kedar.nadkarny@gmail.com')
+    email.send_keys('YOUR_EMAIL_ADDRESS')
     email.click()
     next = browser.find_element_by_id('next')
     next.click()
