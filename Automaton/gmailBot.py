@@ -23,7 +23,7 @@ def enterUser():
 def enterPassword():
     print('entering password')
     password = browser.find_element_by_id('Passwd')
-    password.send_keys('3zK/Wo5Re1m')
+    password.send_keys('YOUR_PASSWORD')
     signin = browser.find_element_by_id('signIn')
     signin.click()
 
