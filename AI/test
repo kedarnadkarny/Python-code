@@ -1,0 +1,5 @@
+#!/usr/bin/python
+
+l = range(1, 11)
+print l
+print l[2:9:2]
